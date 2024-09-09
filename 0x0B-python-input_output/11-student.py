@@ -13,9 +13,9 @@ class Student():
         """
         Constructor of a student
         Args:
-          - first_name: str
-          - last_name: str
-          - age: int
+            - first_name: str
+            - last_name: str
+            - age: int
         """
         self.first_name = first_name
         self.last_name = last_name
@@ -25,7 +25,7 @@ class Student():
         """
         Return the dict representation of the instance
         Args:
-          - attrs: list (None default)
+            - attrs: list (None default)
         """
 
         result = {}
@@ -44,7 +44,7 @@ class Student():
         """
         Update all public instance attributes
         Args:
-          - json: dict
+            - json: dict
         """
         dict_des = self.__dict__
 
