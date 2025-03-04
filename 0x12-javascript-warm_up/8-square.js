@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 const arg = require('process');
-const num = process.argv[2];
+const num = arg.argv[2];
 
 if (!isNaN(num)){
 	for(let i = 0; i < num ; i++){
